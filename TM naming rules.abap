@@ -40,7 +40,7 @@
 * ZTM_CL_(BO)_V_CONS_(NODE)
 * Ex) ZTM_CL_TRQ_V_CONS_ROOT
 
-* 2-2 . Action VAL
+* 2-2 . Action Validation
 
 * 2-2-1) Validation
 * ZVAL_(NODE)_CHECK_ACTION
