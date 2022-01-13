@@ -142,8 +142,8 @@
 * ex) ZTM_ENH_S_UI_TRQ_GEN ( /SCMTMS/S_UI_TRQ_GEN )
 
 * 2-2. in DB table of node in BOPF
-* ZTM_EEW_(BO)_(NODE)
-* ex) ZTM_EEW_TRQ_ROOT ( /SCMTMS/D_TRQROT, ROOT Node of /SCMTMS/TRQ_ROOT object )
+* ZTM_ENH_EEW_(BO)_(NODE)
+* ex) ZTM_ENH_EEW_TRQ_ROOT ( /SCMTMS/D_TRQROT, ROOT Node of /SCMTMS/TRQ_ROOT object )
 
 * End about Enhancement in standard
 **********************************************************************
