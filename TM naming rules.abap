@@ -54,16 +54,16 @@
 * 3. Create enhancement Action and implementing class and structure
 **********************************************************************
 * 3-1) Action
-* ZACT_(NODE)_(Your action name)
-* Ex) ZACT_ROOT_SEND_HBL
+* ZACT_(Your action name), Start name as Verb
+* Ex) ZACT_SEND_HBL
 
 * 3-2) implementing class
-* ZTM_CL_(BO)_A_(Proper Name with your action)
-* Ex) ZTM_CL_TRQ_A_SEND_HBL
+* ZTM_CL_(BO)_A_(NODE)_(Proper Name with your action)
+* Ex) ZTM_CL_TRQ_A_ROOT_SEND_HBL
 
 * 3-3) implementing Parameter Structure
-* ZTM_S_TRQ_A_(Proper Name with your action)
-* Ex) ZTM_S_TRQ_A_SEND_HBL
+* ZTM_S_TRQ_A_(NODE)_(Proper Name with your action)
+* Ex) ZTM_S_TRQ_A_ROOT_SEND_HBL
 
 **********************************************************************
 * 4. Create enhancement Query and query class and structure
