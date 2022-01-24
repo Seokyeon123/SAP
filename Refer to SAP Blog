@@ -3,6 +3,26 @@ SAP Blog
 * BOPF
 1. Quick BOPF debugging in SAP Transportation Management
 : https://blogs.sap.com/2021/01/31/quick-bobf-debugging-in-sap-transportation-management/  
+: https://blogs.sap.com/2013/01/04/navigating-the-bopf-part-1-getting-started/
+: https://blogs.sap.com/2013/01/04/navigating-the-bopf-part-2-business-object-overview/
+: https://blogs.sap.com/2013/01/16/navigating-the-bopf-part-3-working-with-the-bopf-api/
+: https://blogs.sap.com/2013/01/29/navigating-the-bopf-part-4-advanced-bopf-api-features/
+: https://blogs.sap.com/2013/02/22/navigating-the-bopf-part-5-enhancement-techniques/
+: https://blogs.sap.com/2013/03/04/navigating-the-bopf-part-6-testing-ui-integration/
+: https://community.sap.com/topics/abap/bopf
+: https://blogs.sap.com/2015/07/18/abap-to-the-future-my-version-of-the-bopf-chapters/
+: https://blogs.sap.com/2015/09/22/abap-to-the-future-my-version-of-the-bopf-chapters-part-1-addendum-other-associations/
+: https://blogs.sap.com/2015/07/20/abap-to-the-future-my-version-of-the-bopf-chapters-part-2/
+: https://blogs.sap.com/2015/07/21/abap-to-the-future-my-version-of-the-bopf-chapters-part-3/
+: https://blogs.sap.com/2015/07/27/abap-to-the-future-my-version-of-the-bopf-chapters-part-4-determinations-and-general-architectural-aspects/
+: https://blogs.sap.com/2015/08/04/abap-to-the-future-my-version-of-the-bopf-chapters-part-5-properties/
+: https://blogs.sap.com/2015/08/07/abap-to-the-future-my-version-of-the-bopf-chapters-part-6-validations/
+: https://blogs.sap.com/2015/09/24/abap-to-the-future-my-version-of-the-bopf-chapters-part-7-actions/
+: https://blogs.sap.com/2015/09/26/abap-to-the-future-my-version-of-the-bopf-chapters-part-8-a-modification-roundtrip/
+: https://sapyard.com/bopf-for-beginners-part-1-introduction/
+: https://sapyard.com/bopf-for-beginners-part-2-association/
+: https://blogs.sap.com/2013/03/21/tmp-the-tm-podcast/ TM Potcast
+: https://www.youtube.com/watch?v=Sx44Vc15H5Q BOPF Youtube
 
 2. SAP Help Portal 
 2-1. BOPF Architecture and etc..
@@ -11,3 +31,5 @@ SAP Blog
 * PPF
 1. SAP TM – Auto populate Email Receiver for PPF Action / PPF Output/ PDF Forms
 : https://blogs.sap.com/2020/12/28/sap-tm-auto-populate-email-receiver-for-ppf-action-ppf-output-pdf-forms/
+
+
