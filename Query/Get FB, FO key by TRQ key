@@ -13,9 +13,9 @@ SELECT
 SELECT
   FROM /scmtms/d_trqrot AS trqrot
   JOIN /scmtms/d_torite AS torite ON torite~ref_trq_root_key = trqrot~db_key
-  JOIN /scmtms/d_torite AS bo_ite ON bo_ite~ref_item_key     = torite~db_key
-  JOIN /scmtms/d_torrot AS bo_rot ON bo_rot~db_key           = bo_ite~parent_key
-                                 AND bo_rot~tor_cat          = 'TO'
+  JOIN /scmtms/d_torite AS bo_ite ON to_ite~ref_item_key     = torite~db_key
+  JOIN /scmtms/d_torrot AS bo_rot ON to_rot~db_key           = to_ite~parent_key
+                                 AND to_rot~tor_cat          = 'TO'
   FIELDS DISTINCT
     trqrot~db_key     AS source_key,
     torite~parent_key AS target_key
