@@ -1,0 +1,7 @@
+SELECT
+  FROM /scmtms/d_torrot AS torrot
+  JOIN /scmtms/d_torite AS torite ON torite~parent_key = torrot~db_key
+  FIELDS DISTINCT
+    torrot~db_key           AS source_key,
+    torite~ref_trq_root_key AS target_key
+  INTO TABLE @DATA(lt_kl_tor_trq).
