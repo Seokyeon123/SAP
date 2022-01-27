@@ -1,0 +1,7 @@
+SELECT
+  FROM /scmtms/d_trqrot AS trqrot
+  JOIN /scmtms/d_torite AS torite ON torite~ref_trq_root_key = trqrot~db_key
+  FIELDS DISTINCT
+    trqrot~db_key     AS source_key,
+    torite~parent_key AS target_key
+  INTO TABLE @DATA(lt_kl_trq_tor).
