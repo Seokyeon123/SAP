@@ -1,0 +1,14 @@
+@AbapCatalog.sqlViewName: 'Z100236_CV_10'
+@AbapCatalog.compiler.compareFilter: true
+@AbapCatalog.preserveKey: true
+@AccessControl.authorizationCheck: #CHECK
+@EndUserText.label: 'Get All TOR Key based on TRQ Key'
+define view z100236_ddl_10
+  as select distinct from /scmtms/d_trqrot as a
+    join                  /scmtms/d_torite as b on b.orig_ref_root = a.db_key
+    join                  /scmtms/d_torrot as c on c.db_key = b.parent_key
+{
+  key a.db_key as trq_key,
+  key c.tor_cat, //for sorting
+      c.db_key as tor_key
+}
