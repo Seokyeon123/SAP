@@ -1,0 +1,70 @@
+  as select from /scmtms/d_trqrot [ trq_cat = '03'] as root
+  association [1..*] to /scmtms/d_trqitm as _item   on root.db_key = _item.parent_key
+  association [1..*] to /scmtms/d_trqpty as _party  on root.db_key = _party.parent_key
+  association [1..*] to /scmtms/d_trqlca as _lcaddr on root.db_key = _lcaddr.parent_key
+  association [1..*] to /scmtms/d_trqdrf as _docref on root.db_key = _docref.parent_key
+{
+  key root.db_key,
+      root.trq_id,
+      root.trq_type,
+      root.trq_cat,
+      root.labeltxt,
+      root.order_date,
+      root.shipper_id,
+      root.shipper_key,
+      root.consignee_id,
+      root.consignee_key,
+      root.order_party_id,
+      root.order_party_key,
+      root.src_loc_id,
+      root.src_loc_key,
+      root.src_loc_iatacode,
+      root.src_loc_unlocode,
+      root.des_loc_id,
+      root.des_loc_key,
+      root.des_loc_iatacode,
+      root.des_loc_unlocode,
+      root.gro_wei_val,
+      root.gro_wei_uni,
+      root.gro_vol_val,
+      root.gro_vol_uni,
+      root.net_wei_val,
+      root.net_wei_uni,
+      root.qua_pcs_val,
+      root.qua_pcs_uni,
+      root.qua_pcs2_val,
+      root.qua_pcs2_uni,
+      root.base_uom_val,
+      root.base_uom_uni,
+      root.pkgun_wei_val,
+      root.pkgun_wei_uni,
+      root.cont_cnt_val,
+      root.cont_cnt_uni,
+      root.inc_class_code,
+      root.inc_transf_loc_n,
+      root.freight_term,
+      root.base_btd_id,
+      root.sales_org_id,
+      root.sales_off_id,
+      root.sales_group_id,
+      root.tracking_no,
+      root.created_by,
+      root.created_on,
+      root.changed_by,
+      root.changed_on,
+      root.dgo_indicator,
+      root.transsrvlvl_code,
+      root.mot,
+      root.mot_cat,
+      root.shipping_type,
+      root.traffic_direct,
+      root.movem_type,
+      root.consol_type,
+      root.lifecycle,
+
+ 
+      _item,   // Make association public
+      _party,  // Make association public
+      _lcaddr, // Make association public
+      _docref  // Make association public
+}
