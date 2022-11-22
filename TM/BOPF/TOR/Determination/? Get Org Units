@@ -1,0 +1,4 @@
+Class: /SCMTMS/CL_TOR_ROOT_ORGUNIT
+Method: GET_ORG_UNITS
+
+Can Org be obtained by conditions?
