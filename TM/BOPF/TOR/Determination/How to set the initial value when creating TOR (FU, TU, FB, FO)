@@ -1,0 +1,8 @@
+Enhancement below:
+
+Determination: DET_ROOT_AC
+Class: /SCMTMS/CL_TOR_D_ROOT_AC (Method: EXECUTE 214 line)
+Method: SET_INITIAL_STATUS_ATTRIBUTES 
+
+In the standard method, the initial values are set at the time of TOR creation.
+
